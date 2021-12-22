@@ -12,7 +12,7 @@ special global variables
     * stored in 'contract storage' (etherium blockchain)
 
 #### own data type
-    * built with 'struct'
+    * built it with 'struct' keyword
 
 #### collection of values (array)
     * fixed - `uint[2] arrayName;`
@@ -26,3 +26,7 @@ special global variables
     * by reference
         - solidity passes as the argument to the function a reference
             to the property
+        - string, array, struct and mappings
+        - add keyword 'memory' when declaring reference type as argument
+
+#### 
